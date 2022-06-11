@@ -1,0 +1,111 @@
+  /* css reset  */
+  body {
+    color: black;
+    margin: auto;
+    padding: 0px;
+    background: url('https://images.unsplash.com/photo-1543975200-8e313fb04fc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    font-family: "Baloo 2 script=latin rev=1";
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    top: 0px;
+    left: 30px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    width: 33%;
+    margin: 10px auto;
+    /* border: 2px solid rgb(200, 233, 122); */
+}
+
+.right {
+    /* border: 2px solid rgb(112, 177, 221); */
+    right: 32px;
+    top: 23px;
+    display: inline-block;
+    position: absolute;
+
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+}
+
+.navbar li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(112, 177, 221);
+}
+
+.left img {
+    width: 83px;
+}
+
+.btn {
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    padding: 2px 11px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(121, 119, 119);
+}
+
+.container {
+    /* border: 2px solid aqua; */
+    margin: 150px 2px;
+    padding: 5px 70px;
+    display: block;
+    width: 45%;
+    border-radius: 20px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 5px;
+    /* border: 2px solid black; */
+}
+
+.container h3 {
+    text-align: left;
+}
+
+.form-group .btn {
+
+    margin: 0px 1px;
+    padding: 3px 64px;
+
+}
+
+.form-group .btn:hover {
+
+
+    background: lightseagreen;
+}
